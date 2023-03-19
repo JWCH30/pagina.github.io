@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Documento sin título</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #42413C;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* ~~ Selectores de elemento/etiqueta ~~ */
+ul, ol, dl { /* Debido a las diferencias existentes entre los navegadores, es recomendable no añadir relleno ni márgenes en las listas. Para lograr coherencia, puede especificar las cantidades deseadas aquí o en los elementos de lista (LI, DT, DD) que contienen. Recuerde que lo que haga aquí se aplicará en cascada en la lista .nav, a no ser que escriba un selector más específico. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* la eliminación del margen superior resuelve un problema que origina que los márgenes escapen de la etiqueta div contenedora. El margen inferior restante lo mantendrá separado de los elementos de que le sigan. */
+	padding-right: 15px;
+	padding-left: 15px; /* la adición de relleno a los lados del elemento dentro de las divs, en lugar de en las divs propiamente dichas, elimina todas las matemáticas de modelo de cuadro. Una div anidada con relleno lateral también puede usarse como método alternativo. */
+}
+a img { /* este selector elimina el borde azul predeterminado que se muestra en algunos navegadores alrededor de una imagen cuando está rodeada por un vínculo */
+	border: none;
+}
+/* ~~ La aplicación de estilo a los vínculos del sitio debe permanecer en este orden (incluido el grupo de selectores que crea el efecto hover -paso por encima-). ~~ */
+a:link {
+	color: #42413C;
+	text-decoration: underline; /* a no ser que aplique estilos a los vínculos para que tengan un aspecto muy exclusivo, es recomendable proporcionar subrayados para facilitar una identificación visual rápida */
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* este grupo de selectores proporcionará a un usuario que navegue mediante el teclado la misma experiencia de hover (paso por encima) que experimenta un usuario que emplea un ratón. */
+	text-decoration: none;
+}
+
+/* ~~ este contenedor de anchura fija rodea a todos los demás elementos ~~ */
+.container {
+	width: 960px;
+	background-color: #FFF;
+	margin: 0 auto; /* el valor automático de los lados, unido a la anchura, centra el diseño */
+}
+
+/* ~~ Esta es la información de diseño. ~~ 
+
+1) El relleno sólo se sitúa en la parte superior y/o inferior de la div. Los elementos situados dentro de esta div tienen relleno a los lados. Esto le ahorra las "matemáticas de modelo de cuadro". Recuerde que si añade relleno o borde lateral a la div propiamente dicha, éste se añadirá a la anchura que defina para crear la anchura *total*. También puede optar por eliminar el relleno del elemento en la div y colocar una segunda div dentro de ésta sin anchura y el relleno necesario para el diseño deseado.
+
+*/
+.content {
+
+	padding: 10px 0;
+}
+
+/* ~~ clases float/clear varias ~~ */
+.fltrt {  /* esta clase puede utilizarse para que un elemento flote en la parte derecha de la página. El elemento flotante debe preceder al elemento junto al que debe aparecer en la página. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* esta clase puede utilizarse para que un elemento flote en la parte izquierda de la página. El elemento flotante debe preceder al elemento junto al que debe aparecer en la página. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* esta clase puede situarse en una <br /> o div vacía como elemento final tras la última div flotante (dentro de #container) si se elimina overflow:hidden en .container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+#apDiv1 {
+	position: absolute;
+	width: 308px;
+	height: 162px;
+	z-index: 1;
+	left: 227px;
+	top: 575px;
+}
+#apDiv2 {
+	position: absolute;
+	width: 306px;
+	height: 158px;
+	z-index: 2;
+	left: 590px;
+	top: 572px;
+}
+#apDiv3 {
+	position: absolute;
+	width: 404px;
+	height: 209px;
+	z-index: 1;
+	left: 87px;
+	top: 343px;
+}
+#apDiv4 {
+	position: absolute;
+	width: 363px;
+	height: 207px;
+	z-index: 2;
+	left: 547px;
+	top: 345px;
+}
+#apDiv5 {
+	position: absolute;
+	width: 419px;
+	height: 208px;
+	z-index: 3;
+	left: 98px;
+	top: 900px;
+}
+#apDiv6 {
+	position: absolute;
+	width: 357px;
+	height: 212px;
+	z-index: 4;
+	left: 549px;
+	top: 890px;
+}
+#apDiv7 {
+	position: absolute;
+	width: 415px;
+	height: 218px;
+	z-index: 5;
+	left: 91px;
+	top: 1495px;
+}
+#apDiv8 {
+	position: absolute;
+	width: 357px;
+	height: 198px;
+	z-index: 6;
+	left: 553px;
+	top: 1506px;
+}
+-->
+</style></head>
+
+<body>
+
+<div class="container">
+  <div class="content">
+    <div align="center"></div>
+    <table width="863" height="1240" border="2" align="center" cellpadding="5" cellspacing="10">
+      <tr>
+        <td width="427" align="left" valign="middle"><h2>Salsa &amp; Bachata</h2>
+        <p>Aunque la <strong>Salsa y la Bachata</strong> son dos subgéneros distintos bien diferenciados, en esta entrada los hemos unido puesto que es así como casi siempre se va a encontrar en las discotecas. Esto es porque, de los 4 géneros latinos que hemos considerado de discoteca, estos dos son los estilos bailables con ritmos latinos, mientras que el Reggaeton y el Electro Latino, son más libres a la hora de bailar y desde su producción fueron pensados para el baile de discoteca, al igual que el House de la música electrónica.</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <div id="apDiv3">
+          <embed src="y2meta.com-Me Descuidaste _ Beder Musicologo &amp; Dkaicedo  video oficial-(480p).mp4" width="403" height="207"></embed>
+        </div>
+        <p>&nbsp;</p></td>
+        <td width="378" align="left" valign="middle"><h2>Reggaetón</h2>
+          <p><strong>El Reggaetón o reguetón es un estilo musical derivado del reggae jamaicano influido por el hip hop</strong>, aunque su predecesor más directo es el reggae en español, que es el reggae de Panamá cuyo máximo exponente es sin duda Bob Marley.</p>
+        <p>Los cantantes de este género recitan las letras, similar al hip hop, buscando casi siempre la rima. Es una música con ritmos generados electrónicamente.</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <div id="apDiv4">
+          <embed src="y2meta.com - Don Omar - Virtual Diva(720p).mp4" width="360" height="205"></embed>
+        </div>
+        <p>&nbsp;</p></td>
+      </tr>
+      <tr>
+        <td align="left" valign="middle"><h2>Electro Latino</h2>
+        <p>Aunque se podría considerar a la vez subgénero de música electrónica y de música latina. Hemos decidido sin duda hablar sobre el Electro Latino aquí. <strong>El Electro Latino es un género musical muy reciente</strong>, sobre 2010, que nació en España y América Latina <strong>con la fusión del tech house y de los ritmos latinos</strong>.</p>
+        <p>El considerado creador del género y primera referencia es Juan Magán con temas de 2007 como &ldquo;Mariah&rdquo; y &ldquo;Verano Azul&rdquo;.</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <div id="apDiv5">
+          <embed src="y2meta.com-Juan Magán - Verano Azul (Videoclip)-(480p).mp4" width="420" height="204"></embed>
+        </div>
+        <p>&nbsp;</p></td>
+        <td align="left" valign="middle"><h2>Pop latino</h2>
+        <p>El pop latino​ es un género de música pop que tiene influencia latina, generalmente se aplica a la música originaria de Latinoamérica y España. Pero también puede ser aplicada a la música pop de cualquier parte del mundo de habla derivados directamente del latín.</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <div id="apDiv6">
+          <embed src="y2meta.com-Chayanne - Torero (Vídeo Oficial)-(480p).mp4" width="357" height="212"></embed>
+        </div>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p></td>
+      </tr>
+      <tr>
+        <td align="left" valign="middle"><h2>Pasillo</h2>
+          <p>El pasillo es un género musical y danza folclórica autóctono de Colombia.​​ A fines del siglo XIX pasó de Colombia a Ecuador y Panamá, también a Venezuela donde se le conoce como valse.​</p>
+          <p>&ldquo;El Pasillo&rdquo; es un <strong>género musical y bailable</strong> que hizo su aparición en Ecuador en el siglo XIX, en la época de las guerras de independencia sudamericanas, como resultado de una fusión entre diversas músicas indígenas –por ejemplo, el yaraví– y europeas, en particular el vals, el minué y el bolero español.</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <div id="apDiv7">
+          <embed src="y2meta.com - Nuestro Juramento - Julio Jaramillo - Letra(720p).mp4" width="414" height="218"></embed>
+        </div>
+        <p>&nbsp;</p></td>
+        <td align="left" valign="middle"><h2>Las Rancheras</h2>
+          <p>La ranchera es un género musical popular y folclórico de la música mexicana ampliamente ligada a los mariachis, pero interpretada con cualquier formato de la música regional mexicana.</p>
+          <p><strong>Canción y danza populares de diversos países de Hispanoamérica</strong>.</p>
+        <div id="apDiv8">
+          <embed src="y2meta.com - Vicente Fernández - Por Tu Maldito Amor-(480p).mp4" width="356" height="210"></embed>
+        </div>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p></td>
+      </tr>
+    </table>
+    <h1 align="center">&nbsp;</h1>
+    <div align="center"><!-- end .content --></div>
+  </div>
+  <div align="center">
+    <!-- end .container -->
+  </div>
+</div>
+</body>
+</html>
